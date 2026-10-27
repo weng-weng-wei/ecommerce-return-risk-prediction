@@ -1,0 +1,44 @@
+{
+  "model_type": "LogisticRegression",
+  "num_classes": 2,
+  "regularization_type": "elastic_net",
+  "elastic_net_param": 0.5,
+  "reg_param": 0.1,
+  "feature_names": [
+    "Customer_Age",
+    "Unit_Price",
+    "Quantity",
+    "Order_Amount",
+    "Discount_Percent",
+    "Delivery_Days",
+    "Review_Rating",
+    "Customer_Gender_encoded",
+    "Product_Category_encoded",
+    "Payment_Method_encoded",
+    "Membership_Status_encoded",
+    "Order_Status_encoded"
+  ],
+  "class_labels": [
+    "不退货 (0)",
+    "退货 (1)"
+  ],
+  "coefficients": {
+    "class_0": {
+      "Customer_Age": 0.0,
+      "Unit_Price": 0.0,
+      "Quantity": 0.0,
+      "Order_Amount": 0.0,
+      "Discount_Percent": 0.0,
+      "Delivery_Days": 0.0,
+      "Review_Rating": 0.0,
+      "Customer_Gender_encoded": 0.0,
+      "Product_Category_encoded": -0.894527481180448,
+      "Payment_Method_encoded": 0.0,
+      "Membership_Status_encoded": 0.0,
+      "Order_Status_encoded": 0.0
+    }
+  },
+  "intercepts": {
+    "class_0": 1.2863333849313459
+  }
+}

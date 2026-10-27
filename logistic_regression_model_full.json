@@ -1,0 +1,66 @@
+{
+  "model_type": "LogisticRegression",
+  "num_classes": 2,
+  "regularization_type": "elastic_net",
+  "elastic_net_param": 0.5,
+  "reg_param": 0.1,
+  "feature_names": [
+    "Customer_Age",
+    "Unit_Price",
+    "Quantity",
+    "Discount_Percent",
+    "Shipping_Cost",
+    "Tax_Amount",
+    "Order_Amount",
+    "Delivery_Days",
+    "Review_Rating",
+    "Customer_Lifetime_Value",
+    "Profit_Margin_Percent",
+    "Profit_Amount",
+    "Customer_Gender_encoded",
+    "Country_encoded",
+    "Customer_Segment_encoded",
+    "Product_Category_encoded",
+    "Payment_Method_encoded",
+    "Device_Type_encoded",
+    "Traffic_Source_encoded",
+    "Membership_Status_encoded",
+    "Shipping_Method_encoded",
+    "Season_encoded",
+    "Holiday_Season_encoded"
+  ],
+  "class_labels": [
+    "不退货 (0)",
+    "退货 (1)"
+  ],
+  "coefficients": {
+    "class_0": {
+      "Customer_Age": 0.0,
+      "Unit_Price": 0.0,
+      "Quantity": 0.0,
+      "Discount_Percent": 0.0,
+      "Shipping_Cost": 0.0,
+      "Tax_Amount": 0.0,
+      "Order_Amount": 0.0,
+      "Delivery_Days": 0.0,
+      "Review_Rating": -0.894527481180448,
+      "Customer_Lifetime_Value": 0.0,
+      "Profit_Margin_Percent": 0.0,
+      "Profit_Amount": 0.0,
+      "Customer_Gender_encoded": 0.0,
+      "Country_encoded": 0.0,
+      "Customer_Segment_encoded": 0.0,
+      "Product_Category_encoded": 0.0,
+      "Payment_Method_encoded": 0.0,
+      "Device_Type_encoded": 0.0,
+      "Traffic_Source_encoded": 0.0,
+      "Membership_Status_encoded": 0.0,
+      "Shipping_Method_encoded": 0.0,
+      "Season_encoded": 0.0,
+      "Holiday_Season_encoded": 0.0
+    }
+  },
+  "intercepts": {
+    "class_0": 1.2863333849313459
+  }
+}
